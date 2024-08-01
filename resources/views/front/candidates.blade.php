@@ -81,7 +81,7 @@
             if (category != '') {
                 url += '&category=' + category;
             }
-            window.location.href = {{url()->current()}};
+            window.location.href = '{{url()->current()}}';
         })
     </script>
 @endsection
